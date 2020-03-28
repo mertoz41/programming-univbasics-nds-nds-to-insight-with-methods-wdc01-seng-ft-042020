@@ -25,7 +25,7 @@ def directors_totals(nds)
     director_name = nds[row_index][:name]
     directors_gross = nds[row_index][:movies]
     column_index = 0
-    binding.pry 
+    
     while column_index < directors_gross.length do 
       director_total += gross_for_director[column_index][:worldwide_gross]
       column_index += 1 
