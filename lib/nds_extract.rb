@@ -33,7 +33,6 @@ def directors_totals(nds)
     result[director_name] = director_total 
     director_total = 0 
     row_index += 1 
-    binding.pry 
   end 
   director_total
   
